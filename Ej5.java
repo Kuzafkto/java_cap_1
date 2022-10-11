@@ -1,7 +1,14 @@
+/*
+ * Modifica el programa anterior añadiendo colores. 
+ * Puedes mostrar cada asignatura de un color diferente
+ * 
+ * @author KuzaFkto
+ */
+
 public class Ej5{
     public static void main(String[] args) {
-
-        String verde =  "\033[32m";
+        try {
+            String verde =  "\033[32m";
         String azul = "\033[34m";
         String naranja = "\033[33m";
         String celeste = "\033[36m";
@@ -22,6 +29,12 @@ public class Ej5{
         System.out.printf("%-17s %-17s %-17s %-17s %-17s %-17s\n",blanco+"13:45",celeste+"BBDD",verde+"Entornos",celeste+"BBDD",celeste+"BBDD",rojo+"Sistemas");
         System.out.printf("%-17s %-17s %-17s %-17s %-17s %-17s\n",blanco+"14:45",celeste+"BBDD",verde+"Entornos",celeste+"BBDD",celeste+"BBDD",rojo+"Sistemas");
 
+        } catch (Exception e) {
+            System.out.println("Error! ");
+            System.out.println("Por favor, ejecute el código de nuevo");    
+        }
+
+        
 
     }
 }
