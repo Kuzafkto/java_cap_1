@@ -21,7 +21,7 @@ pyramid pirámide
 
 public class Ej3{
     public static void main(String[] args) {
-        try {
+       
             System.out.printf("%-12s %-12s \n","Español","Inglés");
             System.out.println("--------------------");
             System.out.printf("%-10s   %-10s \n","Talk","Hablar");
@@ -33,9 +33,7 @@ public class Ej3{
             System.out.printf("%-10s   %-10s\n","Hit","Golpe");  
             System.out.printf("%-10s   %-10s\n","Bear","Oso");  
             System.out.printf("%-10s   %-10s\n","Beer","Cerveza"); 
-        } catch (Exception e) {
-            System.out.println("Error! ");
-            System.out.println("Por favor, ejecute el código de nuevo");            }
+       
   
     }
 }

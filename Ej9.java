@@ -11,7 +11,7 @@ imaginación!.
 public class Ej9{
     public static void main(String[] args) {
 
-        try {
+       
             System.out.println("         ____");
             System.out.println("        /___/\\_");
             System.out.println("       _\\   \\/_/\\__");
@@ -22,10 +22,7 @@ public class Ej9{
             System.out.println("   \\_\\/_\\__\\/\\__\\/\\__\\/_\\_\\/");
             System.out.println("      \\_\\/_/\\       /_\\_\\/");
             System.out.println("         \\_\\/       \\_\\/");
-        } catch (Exception e) {
-            System.out.println("Error! ");
-            System.out.println("Por favor, ejecute el código de nuevo");    
-                }
+      
        
     }
 }

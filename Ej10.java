@@ -9,7 +9,6 @@ import java.io.PrintWriter;
 public class Ej10{
 public static void main(String[] args) {
 
-    try {
         PrintWriter printWriter = new PrintWriter(System.out,true);
 printWriter.println("         ____");
 printWriter.println("        /___/\\_");
@@ -21,9 +20,6 @@ printWriter.println("   /_/\\⬜⬜⬜⬜__⬜⬜⬜__⬜⬜\\⬜\\_/_/\\");
 printWriter.println("   \\_\\/_\\__\\/\\__\\/\\__\\/_\\_\\/");
 printWriter.println("      \\_\\/_/\\       /_/_\\_\\/");
 printWriter.println("         \\_\\/       \\_\\/");
-    } catch (Exception e) {
-        System.out.println("Error! ");
-        System.out.println("Por favor, ejecute el código de nuevo");    
-        }
+    
 }
 }

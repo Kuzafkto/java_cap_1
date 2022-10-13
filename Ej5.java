@@ -7,7 +7,7 @@
 
 public class Ej5{
     public static void main(String[] args) {
-        try {
+    
             String verde =  "\033[32m";
         String azul = "\033[34m";
         String naranja = "\033[33m";
@@ -29,10 +29,7 @@ public class Ej5{
         System.out.printf("%-17s %-17s %-17s %-17s %-17s %-17s\n",blanco+"13:45",celeste+"BBDD",verde+"Entornos",celeste+"BBDD",celeste+"BBDD",rojo+"Sistemas");
         System.out.printf("%-17s %-17s %-17s %-17s %-17s %-17s\n",blanco+"14:45",celeste+"BBDD",verde+"Entornos",celeste+"BBDD",celeste+"BBDD",rojo+"Sistemas");
 
-        } catch (Exception e) {
-            System.out.println("Error! ");
-            System.out.println("Por favor, ejecute el código de nuevo");    
-        }
+       
 
         
 

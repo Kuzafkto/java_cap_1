@@ -13,15 +13,13 @@ Ejemplo:
 
 public class Ej6{
     public static void main(String[] args) {
-        try {
+        
             System.out.println("    *");
             System.out.println("   ***");
             System.out.println("  *****");
             System.out.println(" *******");
             System.out.println("*********");
-        } catch (Exception e) {
-            System.out.println("Error! ");
-            System.out.println("Por favor, ejecute el código de nuevo");          }
+     
         
     }
 }

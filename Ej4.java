@@ -6,7 +6,7 @@
 
 public class Ej4{
     public static void main(String[] args) {
-        try {
+        
             System.out.printf(" %-17s %-17s %-17s %-17s %-17s %-17s",""," \033[34m Lunes","Martes","Miercoles","Jueves","Viernes");
             System.out.println("");
             System.out.printf("--------------------------------------------------------------------------------------------------");
@@ -19,10 +19,7 @@ public class Ej4{
             System.out.printf("%-17s %-17s %-17s %-17s %-17s %-17s\n","12:45","BBDD","Programación","BBDD","BBDD","Sistemas");
             System.out.printf("%-17s %-17s %-17s %-17s %-17s %-17s\n","13:45","BBDD","Entornos","BBDD","BBDD","Sistemas");
             System.out.printf("%-17s %-17s %-17s %-17s %-17s %-17s\n","14:45","BBDD","Entornos","BBDD","BBDD","Sistemas");
-        } catch (Exception e) {
-            System.out.println("Error! ");
-            System.out.println("Por favor, ejecute el código de nuevo");           }
-      
+        
 
 
     }
