@@ -4,7 +4,7 @@
  * @author KuzaFkto
  */
 
-public class Ej4{
+public class Ejercicio4{
     public static void main(String[] args) {
         
             System.out.printf(" %-17s %-17s %-17s %-17s %-17s %-17s",""," \033[34m Lunes","Martes","Miercoles","Jueves","Viernes");

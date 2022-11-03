@@ -5,7 +5,7 @@
  * @author KuzaFkto
  */
 
-public class Ej5{
+public class Ejercicio5{
     public static void main(String[] args) {
     
             String verde =  "\033[32m";

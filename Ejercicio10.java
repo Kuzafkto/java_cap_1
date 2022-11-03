@@ -6,7 +6,7 @@
 
 import java.io.PrintWriter;
 
-public class Ej10{
+public class Ejercicio10{
 public static void main(String[] args) {
 
         PrintWriter printWriter = new PrintWriter(System.out,true);
